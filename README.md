@@ -32,7 +32,7 @@ The portfolio is hosted on GitHub Pages and can be viewed at:
 
 Feel free to reach out to me for any inquiries or collaboration opportunities:
 - **Email**: samybouma@hotmail.com
-- **LinkedIn**: [Samy Bouma Ngock](https://www.linkedin.com/in/samybouma)
+- **LinkedIn**: [Samy Bouma Ngock](https://www.linkedin.com/in/samyboumangock)
 - **GitHub**: [samybouma](https://github.com/samybouma)
 
 Thank you for visiting my portfolio!
