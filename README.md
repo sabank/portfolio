@@ -26,13 +26,13 @@ This portfolio includes a variety of projects organized into three main categori
 ## How to View the Site
 
 The portfolio is hosted on GitHub Pages and can be viewed at:
-[https://samybouma.github.io](https://samybouma.github.io)
+[sabank](https://sabank.github.io)
 
 ## Contact Information
 
 Feel free to reach out to me for any inquiries or collaboration opportunities:
 - **Email**: samybouma@hotmail.com
 - **LinkedIn**: [Samy Bouma Ngock](https://www.linkedin.com/in/samyboumangock)
-- **GitHub**: [samybouma](https://github.com/samybouma)
+- **GitHub**: [samybouma](https://github.com/sabank)
 
 Thank you for visiting my portfolio!
