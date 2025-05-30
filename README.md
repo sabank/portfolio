@@ -26,7 +26,7 @@ This portfolio includes a variety of projects organized into three main categori
 ## How to View the Site
 
 The portfolio is hosted on GitHub Pages and can be viewed at:
-[sabank](https://sabank.github.io)
+[portfolio](https://sabank.github.io/portfolio/)
 
 ## Contact Information
 
