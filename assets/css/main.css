@@ -3314,3 +3314,11 @@ input, select, textarea {
 			}
 
 	}
+
+	.video-link {
+    display: block;
+	}
+
+	.video-responsive {
+		display: block;
+	}
