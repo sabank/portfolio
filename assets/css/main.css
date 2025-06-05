@@ -3350,24 +3350,21 @@ input, select, textarea {
 	padding-bottom: 60px;
 }
 
-.swiper-button-next,
-.swiper-button-prev {
-	top: auto;
-	bottom: 10px;
-	transform: translateY(0);
-	background: rgba(0, 0, 0, 0.5);
-	color: #fff;
-	padding: 8px 12px;
-	border-radius: 4px;
+.swiper-button-next:focus,
+.swiper-button-prev:focus {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
 }
 
-.swiper-button-prev {
-	left: 40%;
+@media (max-width: 768px) {
+	.swiper-button-prev {
+		left: 30%;
+	}
+	.swiper-button-next {
+		right: 30%;
+	}
 }
 
-.swiper-button-next {
-	right: 40%;
-}
 
 
 
