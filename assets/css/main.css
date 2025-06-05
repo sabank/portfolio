@@ -3314,3 +3314,32 @@ input, select, textarea {
 			}
 
 	}
+	.swiper-slide {
+	position: relative;
+	overflow: hidden;
+	border-radius: 10px;
+	}
+
+	.carousel-item img,
+	.carousel-item video {
+	width: 100%;
+	height: auto;
+	display: block;
+	border-radius: 10px;
+	}
+
+	.carousel-item .overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0,6);
+	color: #fff;
+	padding: 1em;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+	}
+
+	.carousel-item:hover .overlay {
+	opacity: 1;
+	}
