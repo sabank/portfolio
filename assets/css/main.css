@@ -3314,32 +3314,32 @@ input, select, textarea {
 			}
 
 	}
-	.swiper-slide {
+/* Ensure Swiper container has relative positioning */
+.swiper {
 	position: relative;
-	overflow: hidden;
-	border-radius: 10px;
-	}
+	padding-bottom: 60px; /* Space for buttons */
+}
 
-	.carousel-item img,
-	.carousel-item video {
-	width: 100%;
+/* Reposition navigation buttons */
+.swiper-button-next,
+.swiper-button-prev {
+	top: auto;
+	bottom: 10px;
+	transform: translateY(0);
+	width: auto;
 	height: auto;
-	display: block;
-	border-radius: 10px;
-	}
-
-	.carousel-item .overlay {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background: rgba(0, 0, 0,6);
 	color: #fff;
-	padding: 1em;
-	opacity: 0;
-	transition: opacity 0.3s ease;
-	}
+	background: rgba(0, 0, 0, 0.5);
+	padding: 8px 12px;
+	border-radius: 4px;
+}
 
-	.carousel-item:hover .overlay {
-	opacity: 1;
-	}
+/* Adjust left/right position */
+.swiper-button-prev {
+	left: 40%;
+}
+
+.swiper-button-next {
+	right: 40%;
+}
+
