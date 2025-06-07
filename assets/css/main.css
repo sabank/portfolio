@@ -3368,3 +3368,70 @@ input, select, textarea {
 
 
 
+
+
+
+/* Swiper.js Carousel Styles */
+.carousel-section {
+  padding: 4em 0;
+  background: #f9f9f9;
+  height: 600px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  opacity: 0.4;
+  transition: opacity 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide-active {
+  opacity: 1;
+}
+
+.media-container {
+  position: relative;
+  max-width: 800px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.media-container img,
+.media-container video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 1em;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.media-container:hover .description {
+  opacity: 1;
+}
+
+.description h4 {
+  margin: 0 0 0.5em;
+}
+
+.description a {
+  color: #ffd700;
+  text-decoration: underline;
+}
