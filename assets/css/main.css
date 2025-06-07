@@ -3349,8 +3349,8 @@ input, select, textarea {
 
 .media-container img,
 .media-container video {
-  width: auto;
-  height: 500px;
+  width: 100%;
+  height: 600px;
   display: block;
   border-radius: 8px;
   object-fit: cover; /* Optional: ensures content fills the frame nicely */
