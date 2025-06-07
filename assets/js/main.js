@@ -157,3 +157,22 @@
 		});
 
 })(jQuery);
+
+// Tooltip for locked GitHub Repo
+document.addEventListener("DOMContentLoaded", function () {
+  const lockedLinks = document.querySelectorAll(".locked-link");
+
+  lockedLinks.forEach(link => {
+    const tooltip = link.querySelector(".tooltip");
+
+    link.addEventListener("mouseenter", () => {
+      tooltip.style.visibility = "visible";
+      tooltip.style.opacity = "1";
+    });
+
+    link.addEventListener("mouseleave", () => {
+      tooltip.style.visibility = "hidden";
+      tooltip.style.opacity = "0";
+    });
+  });
+});
