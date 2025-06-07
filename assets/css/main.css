@@ -3381,18 +3381,32 @@ input, select, textarea {
 }
 
 /* === Locked GitHub Repo Styling === */
-.locked-repo {
-  cursor: not-allowed;
-  color: #555;
+.locked-link {
   position: relative;
+  cursor: not-allowed;
   display: inline-block;
+  color: #555;
+  font-weight: bold;
 }
 
-.locked-repo::after {
-  content: " 🔒";
-  font-size: 0.95em;
+.locked-link .padlock {
+  margin-left: 4px;
 }
 
-.locked-repo[title]:hover::after {
-  content: " 🔒";
+.locked-link .tooltip {
+  visibility: hidden;
+  opacity: 0;
+  width: max-content;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 5px 8px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: opacity 0.3s;
+  white-space: nowrap;
 }
