@@ -3314,62 +3314,6 @@ input, select, textarea {
 			}
 
 	}
-/* Swiper Styles */
-/* Carousel container with 4:3 aspect ratio */
-.carousel-item {
-	display: block;
-	width: 937px;
-	height: 621px;
-	overflow: hidden;
-	position: relative;
-}
-
-.media-frame {
-	width: 937px;
-	height: 621px;
-	overflow: hidden;
-	border-radius: 8px;
-}
-
-.media-frame img,
-.media-frame video {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	display: block;
-}
-
-/* Description below media */
-.carousel-item .description {
-	margin-top: 0.75em;
-	text-align: left;
-}
-
-/* Swiper layout adjustments */
-.swiper {
-	padding-bottom: 60px;
-}
-
-.swiper-button-next:focus,
-.swiper-button-prev:focus {
-  outline: 2px solid #fff;
-  outline-offset: 2px;
-}
-
-@media (max-width: 768px) {
-	.swiper-button-prev {
-		left: 30%;
-	}
-	.swiper-button-next {
-		right: 30%;
-	}
-}
-
-
-
-
-
-
 
 /* Swiper.js Carousel Styles */
 .carousel-section {
@@ -3434,4 +3378,21 @@ input, select, textarea {
 .description a {
   color: #ffd700;
   text-decoration: underline;
+}
+
+/* === Locked GitHub Repo Styling === */
+.locked-repo {
+  cursor: not-allowed;
+  color: #555;
+  position: relative;
+  display: inline-block;
+}
+
+.locked-repo::after {
+  content: " 🔒";
+  font-size: 0.95em;
+}
+
+.locked-repo[title]:hover::after {
+  content: " 🔒";
 }
