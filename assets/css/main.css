@@ -3349,10 +3349,11 @@ input, select, textarea {
 
 .media-container img,
 .media-container video {
-  width: 100%;
-  height: auto;
+  width: 1770px;
+  height: 960px;
   display: block;
   border-radius: 8px;
+  object-fit: cover; /* Optional: ensures content fills the frame nicely */
 }
 
 .description {
