@@ -3353,7 +3353,7 @@ input, select, textarea {
   height: 621px;
   display: block;
   border-radius: 8px;
-  object-fit: contain; /* Optional: ensures content fills the frame nicely */
+  object-fit: fill; /* Optional: ensures content fills the frame nicely */
 }
 
 .description {
