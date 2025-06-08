@@ -3349,7 +3349,7 @@ input, select, textarea {
 
 .media-container img,
 .media-container video {
-  width: auto;
+  width: 100%;
   height: 500px;
   display: block;
   border-radius: 8px;
