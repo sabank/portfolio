@@ -3377,6 +3377,7 @@ input, select, textarea {
 }
 
 .description a {
+  margin: 0 0 0.5em;
   color: #ffd700;
   /*text-decoration: underline;*/
 }
