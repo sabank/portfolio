@@ -3378,7 +3378,6 @@ input, select, textarea {
 
 .description a {
   display: block; /* Makes the link take up the full width */
-  padding: 0.5em 0; /* Adds vertical padding for easier clicking */
   color: #ffd700;
   text-decoration: none;
 }
