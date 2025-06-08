@@ -3380,10 +3380,11 @@ input, select, textarea {
   color: #ffd700;
 }
 
+
 /* === Locked GitHub Repo Styling === */
 .locked-link {
   position: relative;
-  /*cursor: not-allowed;*/
+  cursor: not-allowed;
   display: inline-block;
   color: #555;
   font-weight: bold;
