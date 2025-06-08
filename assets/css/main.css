@@ -3373,7 +3373,7 @@ input, select, textarea {
 .media-container:hover .description {
   opacity: 1;
 }
-/*
+
 .description h4 {
   margin: 0 0 0.5em;
 }
@@ -3381,7 +3381,7 @@ input, select, textarea {
 .description a {
   color: #ffd700;
 }
-*/
+
 .description h4,
 .description p {
   margin: 0 0 0.5em;
