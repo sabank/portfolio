@@ -3378,9 +3378,7 @@ input, select, textarea {
 
 .description a {
   color: #ffd700;
-  text-decoration: none;
 }
-
 
 /* === Locked GitHub Repo Styling === */
 .locked-link {
