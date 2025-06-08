@@ -3377,7 +3377,6 @@ input, select, textarea {
 }
 
 .description a {
-  display: block; /* Makes the link take up the full width */
   color: #ffd700;
   text-decoration: none;
 }
