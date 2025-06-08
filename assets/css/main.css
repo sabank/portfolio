@@ -3366,8 +3366,6 @@ input, select, textarea {
   padding: 1em;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
-  text-decoration: none;
-  display: block; /* Makes the entire area clickable */
 }
 
 .media-container:hover .description {
@@ -3379,15 +3377,11 @@ input, select, textarea {
 }
 
 .description a {
+  display: block; /* Makes the entire area clickable */
   color: #ffd700;
-}
-
-.description h4,
-.description p {
-  margin: 0 0 0.5em;
+  text-decoration: none;
   pointer-events: none; /* Optional: allows text to not interfere with click */
 }
-
 
 /* === Locked GitHub Repo Styling === */
 .locked-link {
